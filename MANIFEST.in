@@ -1,0 +1,3 @@
+recursive-include buildver *
+global-exclude *.py[cod]
+include VERSION
