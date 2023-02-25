@@ -16,7 +16,7 @@ No description
 [\_increment](#_increment) &nbsp;&nbsp; [\_reset\_to\_zero](#_reset_to_zero) &nbsp;&nbsp; [build\_project](#build_project) &nbsp;&nbsp; [get\_latest\_build](#get_latest_build) &nbsp;&nbsp; [get\_version](#get_version) &nbsp;&nbsp; [interpret\_version](#interpret_version) &nbsp;&nbsp; [set\_version](#set_version) &nbsp;&nbsp; [update\_build\_report](#update_build_report)
 
 ## \_increment
-None
+No description
 
 
 
@@ -26,13 +26,13 @@ None
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
 
 ## \_reset\_to\_zero
-None
+No description
 
 
 
@@ -42,7 +42,7 @@ None
 
 
 
-**Return Value:** None.
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
@@ -63,7 +63,8 @@ Build the project
 
 
 
-**Return Value:** ['Returns a tuple: success_boolean, error_str', '    ']
+**Return Value:** Returns a tuple: success_boolean, error_str
+    
 
 [Back to Top](#module-overview)
 
@@ -84,7 +85,8 @@ Get basic information about the latest build
 
 
 
-**Return Value:** ['Returns a tuple of strings: (version, timestamp).', 'Return None if there is nothing to show.']
+**Return Value:** Returns a tuple of strings: (version, timestamp).
+Return None if there is nothing to show.
 
 [Back to Top](#module-overview)
 
@@ -110,7 +112,7 @@ then returns the version (str) of the project.
 
 
 
-**Return Value:** ['str, version extracted from $PROJECT_DIR/VERSION or None']
+**Return Value:** str, version extracted from $PROJECT_DIR/VERSION or None
 
 [Back to Top](#module-overview)
 
@@ -132,7 +134,7 @@ This function interprets the command to set a new version.
 
 
 
-**Return Value:** ['The new version as it should be saved in $PROJECT_DIR/VERSION']
+**Return Value:** The new version as it should be saved in $PROJECT_DIR/VERSION
 
 [Back to Top](#module-overview)
 
@@ -158,7 +160,7 @@ This function edits the content of $PROJECT_DIR/VERSION
 
 
 
-**Return Value:** ["Returns False if the project_dir doesn't exist, returns True if all right"]
+**Return Value:** Returns False if the project_dir doesn't exist, returns True if all right
 
 [Back to Top](#module-overview)
 
@@ -180,7 +182,7 @@ Update the build_report file
 
 
 
-**Return Value:** ['None']
+**Return Value:** None
 
 [Back to Top](#module-overview)
 
